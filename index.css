@@ -1,0 +1,128 @@
+html { scrollbar-width: none; } 
+
+body
+{
+    font-family: Helvetica;
+    margin: 0;
+    color: whitesmoke;
+
+}
+
+#title
+{
+    opacity: 1;
+    font-weight: 900;
+    font-size: 10vw;
+}
+
+#titleBox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ED2939;
+}
+
+#what
+{
+    display: block;
+    justify-content: center;
+    height: 120vh;
+    background-color: #2b2b2b;
+}
+
+#whatTitle
+{
+    transition: 0.4s;
+
+    opacity: 0;
+    font-weight: 900;
+    font-size: 5vw;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+
+}
+
+#itis
+{
+    transition: 0.4s;
+    opacity: 0;
+    font-weight: 600;
+    font-size: 2vw;
+    padding: 40px;
+    text-align: center;
+}
+
+#images
+{
+    font-weight: 100;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#images img
+{
+    height: 75%; width: 75%;
+}
+
+#download
+{
+    margin: 0;
+    display: block;
+    justify-content: center;
+    height: 100vh;
+    background-color: #4D6CFA;
+}
+
+#downloadTitle
+{
+    transition: 0.4s;
+    opacity: 0;
+    font-weight: 900;
+    font-size: 5vw;
+    text-align: center;
+    margin: 0;
+    padding: 40px;
+}
+
+#buttonContainer
+{
+    opacity: 0;
+    transition: 0.4s;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55vh;
+}
+
+#downloadButton
+{
+    transition: 0.1s;
+
+    display: block;
+    text-decoration: none;
+    color: #2b2b2b;
+    opacity: 1;
+    font-weight: 100;
+    font-size: 2vw;
+    margin: 0;
+    padding: 40px;
+    border: #2b2b2b solid 3px;
+    text-align: center;
+    padding: 3vh 9vw;
+}
+
+
+
+#downloadButton:hover
+{
+    transition: 0.2s;
+    color: whitesmoke;
+    background-color: #2b2b2b;
+}
